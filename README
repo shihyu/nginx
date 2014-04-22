@@ -13,3 +13,7 @@
 #   src/core/my_debug.c
 #   src/core/my_debug.h
 #   usr/
+#
+1. nginx-1.5.3_old  已經 ./configure 產生objs 資料夾 跟 Makefile
+2. nginx-1.5.3_new 已經移植好
+3. meld nginx-1.5.3_old/ nginx-1.5.3_new/    // 可以比較出差異 
