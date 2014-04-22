@@ -1,0 +1,15 @@
+1. nginx-1.2.0_old  已經 ./configure 產生objs 資料夾 跟 Makefile
+2. nginx-1.2.0_new 已經移植好
+3. meld nginx-1.2.0_old/ nginx-1.2.0_new/    // 可以比較出差異 
+
+#   modified:   objs/Makefile
+#   modified:   objs/ngx_auto_config.h
+#   modified:   src/core/nginx.c
+#   modified:   src/core/ngx_core.h
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#   src/core/my_debug.c
+#   src/core/my_debug.h
+#   usr/
